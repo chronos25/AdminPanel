@@ -4,10 +4,7 @@ export default {
       name: 'Dashboard',
       url: '/dashboard',
       icon: 'icon-speedometer',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
+     
     },
     {
       name: 'Get Mentors',
@@ -16,7 +13,7 @@ export default {
     },
     {
       name: 'Get Mentor By Id',
-      url: '/base/cards',
+      url: '/base/collapses',
       icon: 'icon-puzzle'
     },
     {
@@ -26,17 +23,21 @@ export default {
     },
     {
       name: "Update Mentor By Id",
-      url: '/base/forms',
+      url: '/base/carousels',
       icon: 'icon-puzzle'
     },
     {
       name: "Delete Mentor By Id",
       url: '/base/Jumbotrons',
-      icon: 'icon-puzzle'
+      icon: 'icon-puzzle',
+      badge: {
+        variant: 'info',
+        text: 'NEW',
+      },
     },
     {
       name: "Delete All Mentor's",
-      url: '/base/Jumbotrons',
+      url: '/base/list-groups',
       icon: 'icon-puzzle'
     }
     
